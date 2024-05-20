@@ -193,38 +193,188 @@
     <!-- end header section -->
   </div>
 
-  <!-- about section -->
+<!-- about section -->
 
-  <section class="about_section layout_padding">
-    <div class="container  ">
+<section class="about_section layout_padding" style="background-image: url('images/guyana-flag.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <div class="container">
 
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="img-box">
-            <img src="images\guyana-flag.png" alt="">
+    <div class="row">
+      <div class="col-md-6">
+        <!-- Remove the img-box div -->
+      </div>
+      <div class="col-md-6">
+        <div class="detail-box">
+          <div class="heading_container">
+            <h2>
+              We Are Kaieteur Original
+            </h2>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                We Are Kaieteur Original
-              </h2>
-            </div>
-            <p>
-              Nestled on the upper level of Castle Square, Kaieteur Kitchen Original exudes a warm and inviting atmosphere, offering a delightful escape into the heart of Caribbean culinary tradition. This cozy restaurant, with its down-to-earth ambiance, serves as a haven for those seeking authentic Caribbean flavors.
-              At Kaieteur Kitchen Original, Faye Gomes stands as a culinary maestro, passionately crafting and serving Guyana's most beloved dishes since 2003. With each dish, Faye infuses her expertise and love for Caribbean cuisine, ensuring that every bite is a true celebration of flavor and tradition. <br>
-            </p>
-          </div>
+          <p>
+            <b>Welcome to Kaieteur Kitchen Original, where flavors come to life and smiles are served with every dish.
+            Nestled in the vibrant Castle Square, our restaurant is more than just a dining destination—it's a home away from home, where every visit feels like a warm embrace. Owner Faye Gomes beams with pride as she welcomes you to experience a culinary journey like no other.</b> <br>
+          </p>
+          <p>
+            <b>Originally starting as a humble stall in the Elephant and Castle shopping center, Kaieteur Kitchen has blossomed into a cherished gem in London's culinary scene. With a move to our spacious new unit on the first floor of Castle Square, we've expanded our offerings and enhanced our cozy ambiance to create a haven for food enthusiasts and regulars alike.</b>
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- about section -->
+
+
+<section class="about_section layout_padding">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="img-box">
+          <img src="images/Castle-square-2.jpg" alt="" class="fixed-size-img">
+        </div>
+        <b><p class="image-caption">Castle Square</p></b>
+      </div>
+
+      <div class="col-md-6 col-sm-12">
+        <div class="img-box">
+          <img src="images/Kaieteur-Kitchen-Map.png" alt="" class="fixed-size-img">
+        </div>
+        <b><p class="image-caption">First Floor of Castle Square</p></b>
+      </div>
+
+      <div class="col-md-12">
+        <div class="detail-box">
+          <div class="heading_container"> <br> <br>
+            <h2>
+              Kaieteur Kitchen Original
+            </h2>
+          </div>
+          <p>
+            Nestled on the upper level of Castle Square, Kaieteur Kitchen Original exudes a warm and inviting atmosphere, offering a delightful escape into the heart of Caribbean culinary tradition. This cozy restaurant, with its down-to-earth ambiance, serves as a haven for those seeking authentic Caribbean flavors.
+            At Kaieteur Kitchen Original, Faye Gomes stands as a culinary maestro, passionately crafting and serving Guyana's most beloved dishes since 2003. With each dish, Faye infuses her expertise and love for Caribbean cuisine, ensuring that every bite is a true celebration of flavor and tradition. <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .about_section {
+    padding-top: 30px; /* Adjust this value as needed */
+    padding-bottom: 30px; /* Adjust this value as needed */
+  }
+
+  .fixed-size-img {
+    width: 100%;
+    height: auto; /* Ensures the image scales proportionally */
+    object-fit: contain; /* Ensures the image covers the specified dimensions while maintaining aspect ratio */
+  }
+
+  .img-box {
+    text-align: center;
+    margin-bottom: 10px; /* Reduced margin */
+  }
+
+  .image-caption {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .detail-box {
+    margin-top: 20px;
+  }
+
+  /* Media Queries for Responsive Design */
+  @media (max-width: 767px) {
+    .fixed-size-img {
+      height: auto; /* Adjust height for smaller screens */
+    }
+
+    .detail-box {
+      text-align: center; /* Center text on smaller screens for better readability */
+    }
+  }
+
+  @media (min-width: 768px) {
+    .fixed-size-img {
+      height: 450px; /* Fixed height for larger screens */
+    }
+  }
+</style>
+
+<!-- Owner's Bio section -->
+
+<section class="owner_bio_section layout_padding" style="background-color: #222831;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="text-center" style="color: #fff;">Meet Our Team</h2>
+        <div id="team-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <div class="img-box mx-auto">
+                <img src="images/faye-gomes.jpg" alt="Faye Gomes" style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;">
+                <div class="img-caption">
+                  <h3 style="color: #fff;">Faye Gomes</h3>
+                  <p style="color: #fff;">Director & Head Chef</p>
+                </div>
+              </div>
+              <div class="owner-info mt-3">
+                <p style="color: #fff;">Faye Gomes is the heart and soul behind Kaieteur Kitchen Original. With a passion for Caribbean cuisine and a dedication to authenticity, she brings the vibrant flavors of Guyana to London.</p>
+                <p style="color: #fff;">As both the owner and chef, Faye ensures that every dish served at Kaieteur Kitchen reflects her commitment to quality and tradition. Her culinary journey began in Guyana and has taken her across continents, culminating in the creation of Kaieteur Kitchen—a culinary oasis where guests are treated to a taste of home away from home.</p>
+              </div>
+            </div>
+
+            <!-- Add more team members as needed -->
+            <div class="carousel-item text-center">
+              <div class="img-box mx-auto">
+                <img src="images/team-member-2.jpg" alt="Team Member 2" style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;">
+                <div class="img-caption">
+                  <h3 style="color: #fff;">Ivy Doe-Bruce</h3>
+                  <p style="color: #fff;">Sous / Administrator</p>
+                </div>
+              </div>
+              <div class="owner-info mt-3">
+                <p style="color: #fff;">Bio of team member 2.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item text-center">
+              <div class="img-box mx-auto">
+                <img src="images/team-member-3.jpg" alt="Team Member 3" style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;">
+                <div class="img-caption">
+                  <h3 style="color: #fff;">Team Member 3</h3>
+                  <p style="color: #fff;">Position</p>
+                </div>
+              </div>
+              <div class="owner-info mt-3">
+                <p style="color: #fff;">Bio of team member 3.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#team-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: rgba(0,0,0,0.5); border-radius: 50%;"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#team-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: rgba(0,0,0,0.5); border-radius: 50%;"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Owner's Bio section -->
 
 
 
-  
-  <!-- end about section -->
 
   
     <!-- footer section -->
@@ -252,7 +402,7 @@
                 <a href="">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                   <span>
-                    demo@gmail.com
+                    kaieteurkitchen1@gmail.com 
                   </span>
                 </a>
               </div>
@@ -261,7 +411,7 @@
           <div class="col-md-4 footer-col">
             <div class="footer_detail">
               <a href="" class="footer-logo">
-                Kaieteur Servisces
+                Kaieteur Services
               </a>
               <ul>
                 Dine in &#10004;<br>
@@ -279,7 +429,7 @@
                 <a href="">
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
-                <a href="">
+                <a href="https://www.instagram.com/kaieteurkitchenoriginal/?hl=en">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
               </div>
